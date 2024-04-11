@@ -1,0 +1,123 @@
+body {
+    background-color: #3B4664;
+
+}
+
+.calculator {
+    width: 200px;
+    margin: 80px auto;
+    padding: 50px;
+
+
+
+    background-color: #3B4664;
+
+}
+
+.calculator #display {
+
+
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 230px;
+    font-size: 18px;
+    font-weight: bold;
+
+
+    border: transparent;
+    text-align: right;
+    background: #181F32;
+
+    color: white;
+}
+
+.calculator .buttonss {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8px;
+    background: #181F32;
+    width: 210px;
+    padding: 10px;
+
+
+
+
+
+
+
+
+}
+
+
+
+.calculator .buttonss .col {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+
+
+.calculator .buttonss button {
+    width: 47px;
+
+    height: 28px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 6px;
+
+
+
+}
+
+.col.cleq {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+
+
+
+
+
+
+}
+
+.cleq {
+    background-color: #181F32;
+    padding: 10px;
+    width: 210px
+}
+
+#cl,
+#equals {
+    height: 30px;
+    font-weight: bold;
+    border-radius: 3px;
+
+}
+
+#equals {
+    background-color: #D13F30;
+    color: white;
+}
+
+
+#del,
+#cl {
+    background-color: #3B4664;
+    color: white
+}
+
+
+
+
+
+.calculator .buttonss button:hover {
+    background-color: #f0f0f0;
+}
